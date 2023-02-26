@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+    font-family: 'Righteous', cursive;
+}
+
+
+h1{
+    font-family: 'Tilt Prism', cursive;
+}
+p{
+    font-family: 'Righteous', cursive;
+
+}
+h4{
+    font-family: 'Righteous', cursive;
+}
+#name{
+    font-size: 40px;
+}
+span{
+    color: rgb(251, 135, 155);
+}
+#anchor1{
+    text-decoration: none;
+    background-color:rgb(251, 135, 155) ;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+#anchor1:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #84ff00;
+}
+
+
+.half-width{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    min-width:100px;
+    max-width: 350px; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    margin: auto; 
+    
+}
+
+
+.half-width img{
+    display: block;
+   width: 80%;
+   min-width:100px;
+   max-width: 350px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; 
+}
+
+/* .half-width{ 
+    width: 40%;
+}
+
+.half-width img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px ;
+} */
+
+section{
+    padding: 20px  40px ;
+}
+.sec1 {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around ;
+}
+.sec2{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around ;
+}
+#w{
+    text-align: center;
+    padding: 40px 20px;
+}
+.wsec{
+    width:80%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.wsec img{
+    display: block;
+   width: 80%;
+   min-width:100px;
+   max-width: 350px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; 
+}
+
+.sec4{
+    display: flex;
+  justify-content: center ;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+   
+.blah{
+    width: 40%;
+    
+}
+.anchor2{
+    text-decoration: none;
+    background-color:rgb(251, 135, 155) ;
+    color: rgb(255, 255, 255);
+    padding: 20px 60px;
+    border-radius: 5px;
+}
+.anchor2:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #84ff00;
+}
+.anchor2 h6{
+    margin: 0%;
+    
+}
+.anchor2 a:hover{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   
+}
+.anchor2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
